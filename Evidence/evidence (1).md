@@ -1,7 +1,7 @@
 # Lesson 01 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message:
+- Commit 1 hash + message: !['Commit 1'](./Images/lesson1(commits).png)
 - Commit 2 hash + message:
 - Optional Commit 3 hash + message:
 
@@ -28,7 +28,7 @@ school.db
 It opens a connection to a database, which is added to the repository.
 
 ## Quality checklist
-- [ ] Script runs without unhandled errors
-- [ ] I included at least 2 lesson commits
-- [ ] I included terminal evidence
-- [ ] I answered all questions in my own words
+- [✔] Script runs without unhandled errors
+- [✔] I included at least 2 lesson commits
+- [✔] I included terminal evidence
+- [✔] I answered all questions in my own words
