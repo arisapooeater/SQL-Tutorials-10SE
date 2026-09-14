@@ -2,11 +2,11 @@
 
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: !['Commit 1'](./Images/lesson1(commits).png)
-- Commit 2 hash + message:
+- Commit 2 hash + message: !['Commit 2'](./Images/lesson1(commits1).png)
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run (example: `python lesson1_connect.py`):
+- Command run (example: `python lesson1_connect.py`): ```python Python-Files/lesson1_connect.py```
 - Terminal output pasted below:
 
 !['Terminal Output'](./Images/lesson1.png)
