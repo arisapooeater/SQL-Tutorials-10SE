@@ -1,4 +1,4 @@
-# Lesson 6 - Build a Mini Project in Python
+                # Lesson 6 - Build a Mini Project in Python
 
 ## Time
 

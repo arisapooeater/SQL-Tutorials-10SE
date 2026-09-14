@@ -1,4 +1,4 @@
-# Lesson 1 - Setup and First Database Connection
+                                                                                    # Lesson 1 - Setup and First Database Connection
 
 ## Time
 
