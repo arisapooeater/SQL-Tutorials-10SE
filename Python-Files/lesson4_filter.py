@@ -7,11 +7,11 @@ connection = sqlite3.connect("school.db")
 cursor = connection.cursor()
 
 # Python value used in a paramterised query below
-year_group = 10
+year_group = 11
 cursor.execute(
-    "SELECT name, year_group FROM students WHERE year_group = ? ORDER BY name",
-    (year_group))
-
+    "SELECT year_group, name FROM students WHERE year_group = ? ORDER BY name",
+    (year_group,)
+)
 rows = cursor.fetchall()
 for row in rows: 
     print(row)
