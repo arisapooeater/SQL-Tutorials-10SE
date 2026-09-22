@@ -46,6 +46,21 @@ cursor.execute(
     ("Science Club", ava_id)
 )
 
+cursor.execute(
+    "INSERT INTO courses (course_name, student_id) VALUES (?, ?)",
+    ("Math Club", leo_id)
+)
+
+cursor.execute(
+    "INSERT INTO courses (course_name, student_id) VALUES (?, ?)", 
+    ("Chess Club", leo_id)
+)
+
+cursor.execute(
+    "INSERT INTO courses (course_name, student_id) VALUES (?, ?)",
+    ("Yuna Club", ava_id)
+)
+
 # JOIN combines student names with their matching course names.
 cursor.execute("""
     SELECT students.name, courses.course_name
@@ -56,6 +71,7 @@ cursor.execute("""
 rows = cursor.fetchall()
 for row in rows: 
     print(row)
+
 
 # Save table changes before closing the database
 connection.commit()
