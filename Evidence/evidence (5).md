@@ -2,7 +2,9 @@
 
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message:
+![Lesson 5 Commits](./Images/lesson5(commits).png)
 - Commit 2 hash + message:
+![Lesson 5 Commits](./Images/lesson5(commits1).png)
 - Optional Commit 3 hash + message:
 
 ## Run evidence

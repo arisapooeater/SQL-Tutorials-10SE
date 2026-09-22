@@ -37,7 +37,7 @@ Create a file named `lesson6_project.py`:
 
 import sqlite3
 
-connection = sqlite3.connect("school.db")
+connection = sqlite3.connect("books.db")
 # Cursor executes SQL commands and reads query results.
 cursor = connection.cursor()
 
@@ -59,6 +59,13 @@ cursor.execute("INSERT INTO books (title, author) VALUES (?, ?)", ("Wonder", "R.
 cursor.execute("INSERT INTO books (title, author) VALUES (?, ?)", ("The Hobbit", "J. R. R. Tolkien"))
 # Query all books in alphabetical order by title.
 cursor.execute("SELECT title, author FROM books ORDER BY title")
+
+# Creating a simple menu with options
+cursor.execute("""
+CREATE VIEW IF NOT EXISTS [Add book] AS
+ADD 
+TO books
+WHERE """)
 
 # fetchall() gives a list of (title, author) tuples to loop through.
 for title, author in cursor.fetchall():
